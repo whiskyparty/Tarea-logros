@@ -1,0 +1,31 @@
+#N1
+CREATE TABLE Products(
+   product_id INT PRIMARY KEY,
+   product_name VARCHAR(150),
+    price DECIMAL(10,2),
+    stock INT
+);
+
+#N2
+INSERT INTO orders (orders_int, orders_name, price, stock)
+(1, 'laptop Pro', 1200.00, 50),
+(2, 'mause gamer', 75.50, 150),
+(3, 'teclado mecanico', 150.99, 100);
+
+#N3
+SELECT  first_name, last_name, email FROM Customers;
+
+#N4
+SELECT * FROM Customers WHERE country = 'Mexico';
+
+
+
+
+
+
+
+
+
+
+
+
